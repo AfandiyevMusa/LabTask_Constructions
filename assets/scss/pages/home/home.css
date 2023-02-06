@@ -487,6 +487,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #everything .back .words-part .words h2 {
+    width: 200px;
+    font-size: 35px;
+  }
+  #everything .back .words-part .words p {
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+  #constructions .all .up-part span {
+    width: 250px;
+  }
   #constructions .all .bottom-part .each-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -494,7 +507,7 @@
             flex-direction: column;
   }
   #constructions .all .bottom-part .each-card .left-part img {
-    width: 514px;
+    width: 350px;
     height: 300px;
     padding-bottom: 20px;
   }
@@ -502,7 +515,18 @@
     padding-bottom: 20px;
   }
   #our-projects .all .up-part span {
-    width: 500px;
+    width: 400px;
+  }
+  #our-projects .all .middle-part ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #our-projects .all .bottom-part .each-card .image-part {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=home.css.map */

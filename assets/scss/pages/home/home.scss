@@ -396,14 +396,37 @@ $main-color: #fcb900;
 
 
 @media only screen and (max-width: 768px){
+    #everything{
+        .back{
+            .words-part{
+                .words{
+                    h2{
+                        width: 200px;
+                        font-size: 35px;
+                    }
+                    p{
+                        width: 300px;
+                        color: white;
+                        text-align: center;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
     #constructions{
         .all{
+            .up-part{
+                span{
+                    width: 250px;
+                }
+            }
             .bottom-part{
                 .each-card{
                     flex-direction: column;
                     .left-part{
                         img{
-                            width: 514px;
+                            width: 350px;
                             height: 300px;
                             padding-bottom: 20px;
                         }
@@ -420,7 +443,21 @@ $main-color: #fcb900;
         .all{
             .up-part{
                 span{
-                    width: 500px;
+                    width: 400px;
+                }
+            }
+            .middle-part{
+                ul{
+                    flex-direction: column;
+                }
+            }
+            .bottom-part{
+                .each-card{
+                    .image-part{
+                        width: 300px;
+                        height: 250px;
+                        margin-bottom: 20px;
+                    }
                 }
             }
         }
